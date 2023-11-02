@@ -2,13 +2,14 @@ import './App.css';
 
 function App() {
 
-  const date= new Date()
-  const dateString = date.toLocaleTimeString()
+  // const date= new Date()
+  // const dateString = date.toLocaleTimeString()
+
   return (
     <>
-      <h1>Today is {dateString}</h1>
+    <input type="number" min={5} />
     </>
   );
 }
-
+ 
 export default App;
